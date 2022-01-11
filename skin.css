@@ -241,20 +241,20 @@
 }
 
 .video-js .vjs-big-play-button {
-    background-color: rgba(0,0,0,0);
-    font-size: 8em;
-    border-radius: 0%;
-    height: 1em !important;
-    line-height: 1em !important;
-    margin-top: -0.5em !important
+    background-color: rgba(0,0,0,0.5);
+    font-size: 2.5em;
+    border-radius: 20%;
+    height: 1.4em !important;
+    line-height: 1.4em !important;
+    margin-top: -0.7em !important
 }
 
 .video-js:hover .vjs-big-play-button,.video-js .vjs-big-play-button:focus,.video-js .vjs-big-play-button:active {
-    background-color: rgba(0,0,0,0)
+    background-color: #cc181e
 }
 
 .video-js .vjs-loading-spinner {
-    border-color: #b99beb
+    border-color: #cc181e
 }
 
 .video-js .vjs-control-bar2 {
@@ -262,24 +262,15 @@
 }
 
 .video-js .vjs-control-bar {
-    background-color: rgba(0,0,0,0.4) !important;
+    background-color: rgba(0,0,0,0.3) !important;
     color: #ffffff;
     font-size: 12px
 }
 
 .video-js .vjs-play-progress,.video-js  .vjs-volume-level {
-    background-color: #b99beb
+    background-color: #cc181e
 }
 
 .video-js .vjs-load-progress {
-    background: rgba(255,255,255,0.8);
-}
-
-.video-js .vjs-big-play-button:hover {
-    color: #b99beb;
-}
-
-.video-js .vjs-control:focus:before, .video-js .vjs-control:hover:before {
-    color: #b99beb;
-    text-shadow: none
+    background: rgba(255,255,255,0.3);
 }
